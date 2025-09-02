@@ -1,68 +1,40 @@
-# Knowledge-Graphs-for-RAG
+# Knowledge Graphs for RAG
 
-Knowledge-Graphs-for-RAG
-This repository demonstrates the implementation and usage of Knowledge Graphs for Retrieval-Augmented Generation (RAG), showing how to enhance RAG systems with structured knowledge representations.
-Contents
-Notebooks
+This repository demonstrates how to integrate **Knowledge Graphs (KGs)** into **Retrieval-Augmented Generation (RAG)** systems.  
 
-L1-query_with_cypher.ipynb
+Through a series of Jupyter notebooks, you will learn how to:  
+- Build a KG from text  
+- Query it with Cypher  
+- Expand it with new information  
+- Use it to power a simple RAG chat demo  
 
-Introduction to Cypher query language
-Basic querying techniques for knowledge graphs
-Examples of graph database interactions
+---
 
+## 📂 Contents
 
-L2-prep_text_for_RAG.ipynb
+- `01-query-with-cypher.ipynb` – Introduction to Cypher queries and graph interactions  
+- `02-prep-text-for-rag.ipynb` – Text preprocessing for RAG systems  
+- `03-construct-kg-from-text.ipynb` – Entity and relationship extraction, KG construction  
+- `04-add-relationships.ipynb` – Adding and managing relationships in the KG  
+- `05-expand-kg.ipynb` – Expanding and enriching an existing KG  
+- `06-chat-with-kg.ipynb` – KG-based RAG chat demo  
 
-Text preparation techniques for RAG systems
-Document preprocessing
-Data cleaning and formatting methods
+---
 
+## ⚙️ Installation
 
-L3-construct_kg_from_text.ipynb
+```bash
+git clone https://github.com/gorkenvm/Knowledge-Graphs-for-RAG.git
+cd Knowledge-Graphs-for-RAG
 
-Methods for extracting knowledge graphs from text
-Entity and relationship extraction
-Knowledge graph construction techniques
+# create virtual environment (recommended)
+python -m venv .venv && source .venv/bin/activate
 
-
-L4-add_relationships_to_kg.ipynb
-
-Adding and managing relationships in knowledge graphs
-Relationship types and properties
-Graph enrichment techniques
-
-
-L5-expand_the_kg.ipynb
-
-Techniques for expanding existing knowledge graphs
-Integration of new information
-Graph scaling methods
+# install dependencies
+pip install -r requirements.txt
 
 
-L6-chat_with_kg.ipynb
+📖 Reference
 
-Implementation of chat interfaces using knowledge graphs
-Query processing and response generation
-Interactive knowledge graph exploration
-
-
-
-Getting Started
-
-Clone the repository
-
-git clone https://github.com/yourusername/Knowledge-Graphs-for-RAG.git
-
-Install required dependencies
-
-pip install neo4j langchain transformers torch
-
-
-Knowledge Graphs
-RAG systems
-Cypher query language
-Natural Language Processing concepts
-
-Here is more detail about repo : 
-https://learn.deeplearning.ai/courses/knowledge-graphs-rag/
+This project is inspired by the DeepLearning.AI - Knowledge Graphs for RAG course.
+[text](https://learn.deeplearning.ai/courses/knowledge-graphs-rag/?utm_source=chatgpt.com)
