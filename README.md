@@ -12,12 +12,12 @@ Through a series of Jupyter notebooks, you will learn how to:
 
 ## 📂 Contents
 
-- `01-query-with-cypher.ipynb` – Introduction to Cypher queries and graph interactions  
-- `02-prep-text-for-rag.ipynb` – Text preprocessing for RAG systems  
-- `03-construct-kg-from-text.ipynb` – Entity and relationship extraction, KG construction  
-- `04-add-relationships.ipynb` – Adding and managing relationships in the KG  
-- `05-expand-kg.ipynb` – Expanding and enriching an existing KG  
-- `06-chat-with-kg.ipynb` – KG-based RAG chat demo  
+- `L1-query_with_cypher.ipynb` – Introduction to Cypher queries and graph interactions  
+- `L2-prep_text_for_RAG.ipynb` – Text preprocessing for RAG systems  
+- `L3-construct_kg_from_text.ipynb` – Entity and relationship extraction, KG construction  
+- `L4-add_relationships_to_kg.ipynb` – Adding and managing relationships in the KG  
+- `L5-expand_the_kg.ipynb` – Expanding and enriching an existing KG  
+- `L6-chat_with_kg.ipynb` – KG-based RAG chat demo  
 
 ---
 
