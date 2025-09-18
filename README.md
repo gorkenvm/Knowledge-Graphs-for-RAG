@@ -90,3 +90,14 @@ pip install neo4j langchain transformers torch
 - Experiment with queries using **Cypher language** to explore the knowledge graph.  
 
 ---
+## 📚 Resources
+
+- [DeepLearning.AI – Knowledge Graphs for RAG](https://learn.deeplearning.ai/courses/knowledge-graphs-rag/)  
+- Neo4j Cypher Query Language documentation  
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!  
+Please fork the repository and submit a pull request, or open an issue if you encounter a problem.
