@@ -1,41 +1,27 @@
-# Knowledge Graphs for RAG
+# 📘 Knowledge-Graphs-for-RAG
 
-This repository demonstrates how to integrate **Knowledge Graphs (KGs)** into **Retrieval-Augmented Generation (RAG)** systems.  
-
-Through a series of Jupyter notebooks, you will learn how to:  
-- Build a KG from text  
-- Query it with Cypher  
-- Expand it with new information  
-- Use it to power a simple RAG chat demo  
+**Implementation and demonstration of Knowledge Graphs for Retrieval-Augmented Generation (RAG).**
 
 ---
 
-## 📂 Contents
+## 📌 Project Overview
 
-- `L1-query_with_cypher.ipynb` – Introduction to Cypher queries and graph interactions.  
-- `L2-prep_text_for_RAG.ipynb` – Text preprocessing for RAG systems.  
-- `L3-construct_kg_from_text.ipynb` – Entity and relationship extraction, KG construction.  
-- `L4-add_relationships_to_kg.ipynb` – Adding and managing relationships in the KG.
-- `L5-expand_the_kg.ipynb` – Expanding and enriching an existing KG.  
-- `L6-chat_with_kg.ipynb` – KG-based RAG chat demo.  
+This repository showcases how to integrate **Knowledge Graphs** with **RAG systems** to enhance structured knowledge representation and improve semantic search.  
+The notebooks guide you step by step, from querying with Cypher to building knowledge graphs from text and finally integrating them into a chatbot interface.
 
 ---
 
+## 📊 Workflow
 
-## ⚙️ Installation
+The architecture of the project is illustrated below:
 
-```bash
-git clone https://github.com/gorkenvm/Knowledge-Graphs-for-RAG.git
-cd Knowledge-Graphs-for-RAG
+```mermaid
+flowchart TD
+    A[Text Documents] -->|Preprocessing| B[Prep Text for RAG]
+    B -->|Entity Extraction| C[Construct Knowledge Graph]
+    C -->|Add Relationships| D[Expanded Knowledge Graph]
+    D -->|Integration| E[Chat with KG + RAG]
+    E -->|Responses| F[User]
+```
 
-# create virtual environment (recommended)
-python -m venv .venv && source .venv/bin/activate
-
-# install dependencies
-pip install -r requirements.txt
-
-
-📖 Reference
-
-This project is inspired by the DeepLearning.AI - Knowledge Graphs for RAG course.
-[text](https://learn.deeplearning.ai/courses/knowledge-graphs-rag/?utm_source=chatgpt.com)
+---
