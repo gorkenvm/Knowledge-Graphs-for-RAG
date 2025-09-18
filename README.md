@@ -67,3 +67,19 @@ Knowledge-Graphs-for-RAG/
 ```
 
 ---
+## 🚀 Getting Started
+
+Follow the steps below to run the notebooks:
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/gorkenvm/Knowledge-Graphs-for-RAG.git
+cd Knowledge-Graphs-for-RAG
+```
+
+### 2. Install dependencies
+```bash
+pip install neo4j langchain transformers torch
+```
+
+---
