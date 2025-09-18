@@ -83,3 +83,10 @@ pip install neo4j langchain transformers torch
 ```
 
 ---
+## 📖 Usage
+
+- Open any notebook from the `notebooks/` folder in Jupyter or VSCode.  
+- Run cells step by step to follow the construction of knowledge graphs and their integration into RAG.  
+- Experiment with queries using **Cypher language** to explore the knowledge graph.  
+
+---
